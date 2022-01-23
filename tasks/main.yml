@@ -1,0 +1,3 @@
+---
+- name: Include gather_activate_ip_addr tasks
+  ansible.builtin.include_tasks: gather_activate_ip_addr.yml
