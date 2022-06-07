@@ -1,0 +1,5 @@
+---
+- name: Set variables to publish between tasks
+  ansible.builtin.set_stats:
+    data:
+      gather_activate_ips: "{{ gather_activate_ips }}"

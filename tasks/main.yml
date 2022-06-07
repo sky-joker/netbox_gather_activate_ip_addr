@@ -1,3 +1,6 @@
 ---
 - name: Include gather_activate_ip_addr tasks
   ansible.builtin.include_tasks: gather_activate_ip_addr.yml
+
+- name: Include set_aap_jobtemplate_variable tasks
+  ansible.builtin.include_tasks: set_aap_jobtemplate_variable.yml
